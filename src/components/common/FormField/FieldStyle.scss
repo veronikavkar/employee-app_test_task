@@ -1,0 +1,24 @@
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+.input {
+  display: flex;
+  // justify-content: center;
+}
+.input-wrapper__label {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.input-wrapper__control {
+  display: flex;
+  align-items: center;
+}
+
+.input-wrapper__error {
+  font-size: 14px;
+  color: #aa3333;
+  margin-top: 4px;
+}
